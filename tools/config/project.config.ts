@@ -1,7 +1,7 @@
 import { join } from 'path';
 
 import { SeedConfig } from './seed.config';
-// import { ExtendPackages } from './seed.config.interfaces';
+import { ExtendPackages } from './seed.config.interfaces';
 
 /**
  * This class extends the basic seed configuration, allowing for project specific overrides. A few examples can be found
@@ -22,6 +22,7 @@ export class ProjectConfig extends SeedConfig {
     // Add `NPM` third-party libraries to be injected/bundled.
     this.NPM_DEPENDENCIES = [
       ...this.NPM_DEPENDENCIES,
+      {src: 'font-awesome/css/font-awesome.css', inject: true},
       // {src: 'jquery/dist/jquery.min.js', inject: 'libs'},
       // {src: 'lodash/lodash.min.js', inject: 'libs'},
     ];
@@ -43,13 +44,31 @@ export class ProjectConfig extends SeedConfig {
     ];
 
     // Add packages (e.g. ng2-translate)
-    // let additionalPackages: ExtendPackages[] = [{
-    //   name: 'ng2-translate',
-    //   // Path to the package's bundle
-    //   path: 'node_modules/ng2-translate/bundles/ng2-translate.umd.js'
-    // }];
-    //
-    // this.addPackagesBundles(additionalPackages);
+    let additionalPackages: ExtendPackages[] = [
+      {
+        name: 'hammerjs',
+        path: 'node_modules/hammerjs/hammer.js',
+        packageMeta: {
+          defaultExtension: 'js'
+        }
+      },
+      {
+        name: 'mousetrap',
+        path: 'node_modules/mousetrap/mousetrap.js',
+        packageMeta: {
+          defaultExtension: 'js'
+        }
+      },
+      {
+        name: 'angular-modal-gallery',
+        path: 'node_modules/angular-modal-gallery/bundles/angular-modal-gallery.umd.js',
+        packageMeta: {
+          defaultExtension: 'js'
+        }
+      }
+    ];
+
+    this.addPackagesBundles(additionalPackages);
 
     /* Add proxy middleware */
     // this.PROXY_MIDDLEWARE = [

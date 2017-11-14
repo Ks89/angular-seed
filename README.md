@@ -7,6 +7,12 @@
 [![Dependency Status](https://david-dm.org/mgechev/angular-seed.svg)](https://david-dm.org/mgechev/angular-seed)
 [![devDependency Status](https://david-dm.org/mgechev/angular-seed/dev-status.svg)](https://david-dm.org/mgechev/angular-seed#info=devDependencies)
 
+
+# angular-seed-demo-with-angular-modal-gallery
+
+**This is the official `angular-seed` project with also angular-modal-gallery**
+
+
 Provides fast, reliable and extensible starter for the development of Angular projects.
 
 **Warning: If you're just getting started with the entire JavaScript ecosystem then Angular Seed might not be the best choice for you. The project provides scalable approach for building Angular applications but you may face difficulties configuring this highly customizable solution. In such case we recommend the [Angular CLI](https://github.com/angular/angular-cli).**

@@ -119,7 +119,7 @@
     "build.prod.rollup.aot",
     "server.prod"
   ],
-  
+
   "sme.prod": [
     "build.prod",
     "build.sme.prod"
