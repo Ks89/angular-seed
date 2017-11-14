@@ -7,11 +7,13 @@
 [![Dependency Status](https://david-dm.org/mgechev/angular-seed.svg)](https://david-dm.org/mgechev/angular-seed)
 [![devDependency Status](https://david-dm.org/mgechev/angular-seed/dev-status.svg)](https://david-dm.org/mgechev/angular-seed#info=devDependencies)
 
+<br><br><br>
 
 # angular-seed-demo-with-angular-modal-gallery
 
 **This is the official `angular-seed` project with also angular-modal-gallery**
 
+<br><br><br><br>
 
 Provides fast, reliable and extensible starter for the development of Angular projects.
 
