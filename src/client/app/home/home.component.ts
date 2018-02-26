@@ -13,7 +13,7 @@ import { Image, Action, ImageModalEvent, Description } from 'angular-modal-galle
 })
 export class HomeComponent implements OnInit {
 
-  newName: string = '';
+  newName = '';
   errorMessage: string;
   names: any[] = [];
 
