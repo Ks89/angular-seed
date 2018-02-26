@@ -86,19 +86,10 @@
 
   "serve.prod.rollup.aot": ["build.prod.rollup.aot", "server.prod"],
 
-<<<<<<< HEAD
-  "serve.prod.rollup.aot": [
-    "build.prod.rollup.aot",
-    "server.prod"
-  ],
-
   "sme.prod": [
     "build.prod",
     "build.sme.prod"
   ],
-=======
-  "sme.prod": ["build.prod", "build.sme.prod"],
->>>>>>> e432411f1918f414b8a3f27e5ef567a6df18d415
 
   "sme.prod.aot": ["build.prod.aot", "build.sme.prod.aot"],
 

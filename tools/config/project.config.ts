@@ -44,7 +44,6 @@ export class ProjectConfig extends SeedConfig {
     ];
 
     // Add packages (e.g. ng2-translate)
-<<<<<<< HEAD
     let additionalPackages: ExtendPackages[] = [
       {
         name: 'hammerjs',
@@ -70,7 +69,6 @@ export class ProjectConfig extends SeedConfig {
     ];
 
     this.addPackagesBundles(additionalPackages);
-=======
     // const additionalPackages: ExtendPackages[] = [{
     //   name: 'ng2-translate',
     //   // Path to the package's bundle
@@ -78,7 +76,6 @@ export class ProjectConfig extends SeedConfig {
     // }];
     //
     // this.addPackagesBundles(additionalPackages);
->>>>>>> e432411f1918f414b8a3f27e5ef567a6df18d415
 
     /* Add proxy middleware */
     // this.PROXY_MIDDLEWARE = [
